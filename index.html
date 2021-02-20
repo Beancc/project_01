@@ -1,44 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="jquery.js"></script>
-  <style>
-    li {
-      padding: 5px;
-      border: 1px solid red;
-    }
-
-    span {
-      border: 1px solid #000;
-    }
-  </style>
 </head>
-
 <body>
-  <ul>
-    <li><span>hello 1</span></li>
-    <li><span>hello 1</span></li>
-    <li><span>hello 1</span></li>
-    <li><span>hello 1</span></li>
-  </ul>
-  <script>
-    let ul = document.querySelectorAll('ul')[0]
-    let aLi = document.querySelectorAll('li')
-    $('ul').on('click', 'li', function (e) {
-
-      console.log(e.target)   //  被点击的元素
-      console.log(e.currentTarget)   //  li   
-      console.log(e.currentTarget === this)  // true
-
-
-      console.log("123");
-    })
-  </script>
+  <h1>111</h1>
 </body>
-
 </html>
